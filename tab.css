@@ -1,0 +1,143 @@
+@media all and (min-width: 768px){
+    header{
+        padding: 50px 12px;
+    }
+    
+    header .wrap{
+        margin: 0 auto;
+        width: 552px;
+    }
+    header h2{
+        font-size: 24px;
+    }
+    header h1{
+        font-size: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header p{
+        font-size: 24px;
+        text-align: center;
+    }
+    .profill{
+        padding: 50px 12px;
+    }
+    .profill h1{
+        font-size: 32px;
+    }
+    .profill .pro_img{
+        width: 350px;
+        height: 350px;
+    }
+    .profill .pro li{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .profill .history h2{
+        font-size: 22px;
+    }
+    .profill .history h2::after{
+        max-width: 450px;
+    }
+    .profill .history .list li{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .profill .history .about{
+        font-size: 24px;
+    }
+    .profill .about::before{
+        max-width: 450px;
+    }
+    .skills{
+        padding: 50px 12px;
+    }
+    .skills h1{
+        font-size: 32px;
+    }
+    .skills .con{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 30px;
+        gap: 12px;
+    }
+    .skills .con .box{
+        margin-top: 18px;
+        height: 200px;
+    }
+    .skills .con .box:nth-child(3){
+        margin-top: 0;
+    }
+    .skills .con .box .front .image{
+        height: 170px;
+    }
+    .skills .con .box h3{
+        font-size: 28px;
+    }
+    .skills .con .box .back{
+        padding: 20px;
+    }
+    .skills .con .box p{
+        font-size: 16px;
+    }
+    .portfolio{
+        padding: 50px 12px;
+    }
+    .portfolio h1{
+        font-size: 32px;
+    }
+    .portfolio .container .con{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .portfolio .container .con:first-child{
+        margin-top: 50px;
+    }
+    .portfolio .container .con:nth-child(2),
+    .portfolio .container .con:last-child{
+        flex-direction: row-reverse;
+    }
+    .portfolio .container .con:first-child .thumb{
+        height: 250px;
+        width: 50%;
+    }
+    .portfolio .container .con:nth-child(2) .thumb{
+        height: 250px;
+        width: 50%;
+    }
+    .portfolio .container .con:nth-child(3) .thumb{
+        height: 250px;
+        width: 50%;
+    }
+    .portfolio .container .con:last-child .thumb{
+        height: 250px;
+        width: 50%;
+    }
+    .portfolio .container .con .box{
+        width: 50%;
+        margin-top: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio .container .con h3{
+        font-size: 28px;
+    }
+    .portfolio .container .con p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .portfolio .container .con .btn_con{
+        gap: 12px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .portfolio .container .con .btn_con .btn{
+        font-size: 18px;
+    }
+}

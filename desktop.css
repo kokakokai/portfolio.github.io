@@ -1,0 +1,154 @@
+@media all and (min-width: 1200px){
+    header{
+        padding: 100px 0;
+    }
+    header .wrap{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    header h2{
+        font-size: 32px;
+    }
+    header h1{
+        font-size: 100px;
+    }
+    header h1::after{
+        width: 506px;
+    }
+    header p{
+        font-size: 32px;
+    }
+    .profill{
+        padding: 100px 0;
+    }
+    .profill h1{
+        font-size: 40px;
+    }
+    .profill .wrap{
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .profill .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .profill .pro_img{
+        width: 384px;
+        height: 384px;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+    .profill .pro li{
+        font-size: 20px;
+    }
+    .profill .history{
+        margin-top: 0;
+    }
+    .profill .history h2{
+        font-size: 28px;
+    }
+    .profill .history .list{
+        margin-top: 50px;
+    }
+    .profill .history .list li{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .profill .history h2::after{
+        max-width: 500px;
+    }
+    .profill .history .about{
+        font-size: 28px;
+    }
+    .profill .about::before{
+        max-width: 500px;
+        margin: 50px auto;
+        margin-top: 50px;
+    }
+    .skills{
+        padding: 100px 0;
+    }
+    .skills .wrap{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .skills h1{
+        font-size: 40px;
+    }
+    .skills .con{
+        display: flex;
+        margin-top: 50px;
+        gap: 24px;
+    }
+    .skills .con .box{
+        margin-top: unset;
+        height: 250px;
+    }
+    .skills .con .box .front .image{
+        height: 150px;
+    }
+    .skills .con .box .back{
+        padding: 20px;
+    }
+    .skills .con .box.flipped .front{
+        transform: rotateY(180deg);
+    }
+    .skills .con .box.flipped .back{
+        transform: rotateY(0deg);
+    }
+    .skills .con .box p{
+        font-size: 16px;
+    }
+    .portfolio{
+        padding: 100px 0;
+    }
+    .portfolio .wrap{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .portfolio h1{
+        font-size: 40px;
+    }
+    .portfolio .container .con{
+        gap: 24px;
+        margin-top: unset;
+    }
+    .portfolio .container .con:first-child .thumb{
+        height: 300px;
+        width: 625px;
+    }
+    .portfolio .container .con:nth-child(2) .thumb{
+        height: 300px;
+        width: 625px;
+    }
+    .portfolio .container .con:nth-child(3) .thumb{
+        height: 300px;
+        width: 625px;
+    }
+    .portfolio .container .con:last-child .thumb{
+        height: 300px;
+        width: 625px;
+    }
+    .portfolio .container .con h3{
+        font-size: 36px;
+    }
+    .portfolio .container .con p{
+        font-size: 24px;
+    }
+    .portfolio .container .con .btn_con{
+        gap: 24px;
+        width: 60%;
+    }
+    .portfolio .container .con .btn_con .btn{
+        font-size: 20px;
+    }
+    .portfolio .container .con .btn_con .btn:hover{
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+    }
+}
